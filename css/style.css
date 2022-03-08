@@ -1,27 +1,27 @@
-.container {
-    /* max-width: 1366px;
+.header-wrapper {
+    max-width: 1366px;
     height: 324px;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
-    position: relative;
+    position: absolute;
     text-align: center;
     color: white;
 }
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
 .header-div {
+    position: absolute;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
     padding: 30px 142px;
 }
+.p-div {
+    color: white;
+    font-size: 23px;
+}
 .background-image {
-    position: absolute;
-    max-width: 1366px;
+    position: relative;
+    width: 1366px;
     height: 324px;
     display: flex;
 }
@@ -29,12 +29,19 @@
     font-size: 35px;
     color: red;
     display: none;
+    position: absolute;
 } 
 .nav-ul {
     display: flex;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 660px;
+    color: blue;
+	font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 .nav-li {
-    display: flex;
     justify-content: space-between;
     margin-right: 30px;
     margin-left: 30px;
@@ -42,35 +49,270 @@
 .navigation {
     display: flex;
 }
-.text {
-    width: 195px;
-    height: 59px;
-    font-size: 42px;
-    margin-left: 142px;
-    margin-right: 96px;
-} 
  /* header responsive*/
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .navigation{
         display: none;
     }
     .burger-bar-icon {
         display: block;
     }
+} */
+/* section1 */
+.text-image {
+	position: absolute;
+	margin-top: 70px;
+    margin-left: 40px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
 }
-@media (max-widht:400px) {
-    .logo {
-    width: 195px;
+.text-image1 {
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 65px;
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    /* justify-content: space-between; */
 }
+.text-image2 {
+    position: absolute;
+    margin-top: 210px;
+    left: 100px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /* justify-content: space-between; */
 }
-/* section responsive */
-@media (max-width: 1024px) {
-    .title-section {
-        font-size: 35px;
-    }
+.text-image3 {
+    position: absolute;
+    top: 210px;
+    left: 150px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /* justify-content: space-between; */
 }
-@media (max-width: 370px) {
-    .blue-box {
-        width: 150px;
-    }
-} 
+.container1 {
+    display: flex;
+    margin-top: 200px;
+    width: 444px;
+    height: 388px;
+    /* width: 100%; */
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+.text1 {
+    color: blue;
+    font-size: 12px;
+    position: absolute;
+	margin-top: 300px;
+    margin-left: 15%;
+}
+.text2 {
+    color: black;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 15%;
+    font-size: 25px;
+}
+.text3 {
+    text-align: left;
+    color: black;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 65px;
+    font-size: 15px;
+}
+.container2 {
+    margin-left: 150%;
+    margin-top: 230px;
+    max-width: 444px;
+    height: 388px;
+    position: absolute;
+    display: flex;
+}
+.block1 .block2 {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 260px;
+    height: 185px;
+}
+.block2 {
+    margin-left: 15px;
+}
+.block3 {
+    margin-top: 44%;
+    position: absolute;
+    /* margin-top: 10px; */
+    /* display: flex; */
+    width: 536px;
+    height: 260px;
+}
+/* section3 */
+.main-container {
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+}
+.container3 {
+    margin-top: 70%;
+    margin-left: 0 auto;
+    margin-bottom: 30px;
+    width: 1366px;
+    height: 612px;
+    position: absolute;
+    /* display: flex; */
+}
+.section-image {
+    position: relative;
+    width: 1366px;
+    height: 612px;
+    display: flex;
+}
+.text4 {
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+	margin-top: 470px;
+    margin-left: 65px;
+}
+.blue-box {
+    width: 184px;
+    height: 50px;
+    background-color: blue;
+    margin-top: 570px;
+    margin-left: 65px;
+}
+.readmore {
+    text-align: center;
+    margin-top: 10%;
+}
+.text5 {
+    height: 122px;
+    font-size: 25px;
+    position: absolute;
+	margin-top: 80%;
+    margin-left: 10%;
+}
+.text6 {
+    text-decoration: black;
+    margin-left: 10%;
+    color: blue;
+    margin-top: 65%;
+    font-size: 15px;
+}
+.text7 {
+    margin-left: 25%;
+    text-align: center;
+    font-size: 18px;
+    width: 142px;
+    height: 48px;
+    /* margin-top: 90px; */
+}
+.text8 {
+    text-decoration: black;
+    margin-left: 25%;
+    text-align: center;
+    width: 142px;
+    height: 48px;
+    /* margin-top: 90px; */
+    font-size: 15px;
+}
+.text9 {
+    text-align: center;
+    margin-left: 25%;
+    width: 142px;
+    height: 48px;
+    /* margin-top: 90px; */
+    font-size: 18px;
+}
+.text10 {
+   text-decoration: black;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 15px;
+    width: 142px;
+    height: 48px;
+    /* margin-top: 90px; */
+}
+.text11 {
+    text-align: center;
+    margin-left: 25%;
+    font-size: 18px;
+    width: 142px;
+    height: 48px;
+    /* margin-top: 90px; */
+}
+.text12 {
+    text-decoration: black;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 15px;
+    width: 142px;
+    height: 48px;
+}
+.text13 {
+    margin-left: 25%;
+    text-align: center;
+    font-size: 18px;
+    width: 142px;
+    height: 48px;
+}
+.text14 {
+    color: black;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 15px;
+    width: 142px;
+    height: 48px;
+}
+.main-container2 {
+    display: flex;
+    position: relative;
+}
+.block4 {
+    margin-top: 50%;
+    position: absolute;
+    width: 536px;
+    height: 461px;
+}
+.block5 {
+    margin-top: 90%;
+    margin-left: 4%;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    background-color: white;
+}
+.block6 {
+    margin-top: 90%;
+    margin-left: 28%;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    background-color: white;
+}
+.block7 {
+    margin-top: 90%;
+    margin-left: 52%;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    background-color: white;
+}
+.block8 {
+    margin-top: 90%;
+    margin-left: 76%;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    background-color: white;
+}
+.hotelimage {
+    margin-left: 45%;
+    background-color: blue;
+    border-radius: 20%;
+    
+}
